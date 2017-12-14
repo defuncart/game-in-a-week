@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eef135dcbfa44aa3abdea3c2f928f2c, type: 3}
+  m_Name: SFXDatabase
+  m_EditorClassIdentifier: 
+  audioFiles:
+  - clip: {fileID: 8300000, guid: f71a383054d094df2b776b6a0bae14f0, type: 3}
+    volume: 0.05
+    key: buttonGeneric
+  - clip: {fileID: 8300000, guid: 746b5ce36a8744815906e0426adf51a0, type: 3}
+    volume: 0.8
+    key: doubleCoins
+  - clip: {fileID: 8300000, guid: 5c15df29b75424b289e19b3464e3ca61, type: 3}
+    volume: 0.4
+    key: explosion
+  - clip: {fileID: 8300000, guid: e45452778b48844f680b1773d614013b, type: 3}
+    volume: 1
+    key: insufficientCoins
+  - clip: {fileID: 8300000, guid: 16907c6205ed841c9b3d44f6c6d79a91, type: 3}
+    volume: 0.4
+    key: itemBought
+  - clip: {fileID: 8300000, guid: 3d74dbefa5c984055aa28078710e14a0, type: 3}
+    volume: 0.15
+    key: tap

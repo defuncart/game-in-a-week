@@ -1,0 +1,14 @@
+{ "items" : [
+{ "key": "play", "value": "Graj"},
+{ "key": "shop", "value": "Sklep"},
+{ "key": "settings", "value": "U s t a w i e n i a"},
+{ "key": "music", "value": "Muzyka"},
+{ "key": "sfx", "value": "Dźięk"},
+{ "key": "language", "value": "Język"},
+{ "key": "gameOver", "value": "K o n i e c   g r y !"},
+{ "key": "score", "value": "W y n i k :"},
+{ "key": "playAgain", "value": "Zagraj ponownie"},
+{ "key": "menu", "value": "Menu"},
+{ "key": "buy", "value": "Kupuj"},
+{ "key": "select", "value": "Wybieraj"}
+]}
