@@ -1,0 +1,66 @@
+All code was written by James Leahy.
+Graphic Design by James Leahy.
+Colors inspired by https://www.materialui.co/flatuicolors
+Due to the time constraints of developing Idle Capitalist within a week, there is no game balancing, instead most of the data is taken from Wikia and Anthony Pecorella's articles and spreadsheets.
+http://adventure-capitalist.wikia.com/wiki/AdVenture_Capitalist_Wiki
+http://blog.kongregate.com/the-math-of-idle-games-part-i/
+http://blog.kongregate.com/the-math-of-idle-games-part-ii/
+http://blog.kongregate.com/the-math-of-idle-games-part-iii/
+https://drive.google.com/drive/folders/0B-XwqDnGiT2KWjdPbzNURkhKbmM
+
+Fonts
+
+"Monoglyceride", "MonoglycerideBold", "MonoglycerideDemiBold" and "MonoglycerideExtraBold" by Tepid Monkey CC0
+https://www.1001freefonts.com/monoglyceride.font
+
+Sprites
+
+All graphics by James Leahy except
+
+"appIcon" uses elements of
+"Flat collection of money elements" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/flat-collection-of-money-elements_1081344.htm
+
+avatar0, avatar1, avatar2, avatar3, avatar4, avatar5
+"Business team avatar collection" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/business-team-avatar-collection_874660.htm
+
+Businesses
+
+"beerBrewery" uses elements of
+"Beer badges in vintage style" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/beer-badges-in-vintage-style_774480.htm
+
+"carWash" uses elements of
+"Car wash cartoon pack" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/car-wash-cartoon-pack_753162.htm
+
+"fishBoat" uses elements of
+"Fishing Flat Set" Designed by Macrovector / Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/fishing-flat-set_1536706.htm
+
+"lemonadeStand" uses elements of
+"Various fruits in flat design" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/various-fruits-in-flat-design_1097158.htm
+
+"newspaperDelivery" uses elements of
+"Coffee and newspaper" Designed by Marina Prokic / Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/coffee-and-newspaper_1250638.htm
+
+"pizzaDelivery" uses elements of
+"Modern set of pizza delivery labels" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/modern-set-of-pizza-delivery-labels_1295518.htm
+
+"cash" uses elements of
+"Flat collection of money elements" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/flat-collection-of-money-elements_1081344.htm
+
+"priceTage" uses elements of
+"Sticker collection of black friday" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/sticker-collection-of-black-friday_949434.htm
+
+Upgrades
+
+"monopoly" uses elements of
+"Flat collection of money elements" Designed by Freepix CC Attribution, edited by James Leahy
+https://www.freepik.com/free-vector/flat-collection-of-money-elements_1081344.htm

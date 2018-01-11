@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4fafd84d2014f97bc8b8e9799065ff, type: 3}
+  m_Name: Business6BeerBrewery
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 0199fa914947a440c86d98e82fa2f2ab, type: 3}
+  type: 5
+  initiallyUnlocked: 0
+  maxLevel: 200
+  initialCost: 1244160
+  costMultiplier: 1.11
+  initialTime: 96
+  timeMultiplier: 0.97264
+  initialProfit: 622080
+  milestoneMultipliers:
+  - level: 25
+    multiplier: 1.25
+  - level: 50
+    multiplier: 1.5
+  - level: 100
+    multiplier: 2
+  - level: 200
+    multiplier: 2

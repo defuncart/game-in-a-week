@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4912442e43c7b425287e82b728af8ef7
+timeCreated: 1515073981
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Monoglyceride
+  fontNames:
+  - Monoglyceride
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
