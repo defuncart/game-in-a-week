@@ -16,12 +16,12 @@ This project may be quite useful for those looking for a starting point in creat
 
 <table style="width:100%">
   <tr>
-    <th><img src="docs/assets/images/FlappyBird/screenshot1.png" style="width:100%"></th>
-    <th><img src="docs/assets/images/FlappyBird/screenshot2.png" style="width:100%"></th> 
+    <th><img src="../docs/assets/images/TappyPlane/screenshot1.png" style="width:100%"></th>
+    <th><img src="../docs/assets/images/TappyPlane/screenshot2.png" style="width:100%"></th> 
   </tr>
   <tr>
-    <th><img src="docs/assets/images/FlappyBird/screenshot3.png" style="width:100%"></th>
-    <th><img src="docs/assets/images/FlappyBird/screenshot4.png" style="width:100%"></th> 
+    <th><img src="../docs/assets/images/TappyPlane/screenshot3.png" style="width:100%"></th>
+    <th><img src="../docs/assets/images/TappyPlane/screenshot4.png" style="width:100%"></th> 
   </tr>
 </table>
 

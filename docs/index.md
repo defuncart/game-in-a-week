@@ -18,6 +18,6 @@ layout: default
     <td style="font-size: 20px; font-weight:bold; text-align:center">Tappy Plane</td>
   </tr>
   <tr>
-    <td style="text-align:left">Tappy Plane is a Flappy Bird style endless runner in which the player taps the screen to fly their plane in between obstacles, thus earning coins which can be used to unlock other planes and levels.</td>
+    <td style="text-align:justify">Tappy Plane is a Flappy Bird style endless runner in which the player taps the screen to fly their plane in between obstacles, thus earning coins which can be used to unlock other planes and levels.</td>
   </tr>
 </table>

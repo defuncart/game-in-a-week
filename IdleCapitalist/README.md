@@ -6,10 +6,10 @@
 
 <table style="width:100%">
   <tr>
-    <th><img src="docs/assets/images/IdleCapitalist/screenshot1.png" style="width:25%"></th>
-    <th><img src="docs/assets/images/IdleCapitalist//screenshot2.png" style="width:25%"></th> 
-    <th><img src="docs/assets/images/IdleCapitalist//screenshot3.png" style="width:25%"></th>
-    <th><img src="docs/assets/images/IdleCapitalist//screenshot4.png" style="width:25%"></th> 
+    <th><img src="../docs/assets/images/IdleCapitalist/screenshot1.png" style="width:25%"></th>
+    <th><img src="../docs/assets/images/IdleCapitalist//screenshot2.png" style="width:25%"></th> 
+    <th><img src="../docs/assets/images/IdleCapitalist//screenshot3.png" style="width:25%"></th>
+    <th><img src="../docs/assets/images/IdleCapitalist//screenshot4.png" style="width:25%"></th> 
   </tr>
 </table>
 
