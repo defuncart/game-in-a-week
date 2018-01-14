@@ -1,0 +1,14 @@
+{ "items" : [
+{ "key": "play", "value": "Spielen"},
+{ "key": "shop", "value": "Shop"},
+{ "key": "settings", "value": "Einstellungen"},
+{ "key": "music", "value": "Musik"},
+{ "key": "sfx", "value": "Ton-\neffekte"},
+{ "key": "language", "value": "Sprache"},
+{ "key": "gameOver", "value": "S p i e l   v o r b e i!"},
+{ "key": "score", "value": "Punktzahl:"},
+{ "key": "playAgain", "value": "Wiederspielen"},
+{ "key": "menu", "value": "Menü"},
+{ "key": "buy", "value": "Kauf"},
+{ "key": "select", "value": "Wahl"}
+]}

@@ -6,10 +6,10 @@
 
 <table style="width:100%">
   <tr>
-    <th><img src="Screenshots/screenshot1.png" width="225" height="400"></th>
-    <th><img src="Screenshots/screenshot2.png" width="225" height="400"></th> 
-    <th><img src="Screenshots/screenshot3.png" width="225" height="400"></th>
-    <th><img src="Screenshots/screenshot4.png" width="225" height="400"></th> 
+    <th><img src="docs/assets/images/IdleCapitalist/screenshot1.png" style="width:25%"></th>
+    <th><img src="docs/assets/images/IdleCapitalist//screenshot2.png" style="width:25%"></th> 
+    <th><img src="docs/assets/images/IdleCapitalist//screenshot3.png" style="width:25%"></th>
+    <th><img src="docs/assets/images/IdleCapitalist//screenshot4.png" style="width:25%"></th> 
   </tr>
 </table>
 
@@ -25,17 +25,15 @@
 
 ## Play Online
 
-Although the game is optimized for mobile (Android and iOS), it can be played in the browser [here](https://defuncart.itch.io/idlecapitalist).
-
-## Credits
-
-A full list of credits can be found in [Credits.txt](Credits.txt).
+The game can be played in the browser [here](https://defuncart.itch.io/idlecapitalist).
 
 ## Conclusion
 
-Although the mathematics of idle games are quite complex, and game balancing wasn't even considered due to time constraints, from an implementation point of view, *Idle Capitalist*, for the short period of time it was developed it, is quite a well-functioning idle clicker. This prototype could easily be extended to form a full game.
+Although the mathematics of idle games are quite complex, and game balancing wasn't even considered due to time constraints, from an implementation point of view, *Idle Capitalist* is quite a well-functioning idle clicker. This prototype could easily be extended to form a full game.
 
 ## Further Reading
+
+A full list of credits can be found in [Credits.txt](Credits.txt).
 
 A number of principles utilized in this project are explained in more detail in various [#50-Unity-Tips](https://github.com/defuncart/50-unity-tips) articles.
 

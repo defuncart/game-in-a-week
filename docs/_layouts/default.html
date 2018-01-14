@@ -1,0 +1,94 @@
+<!--  Written by James Leahy (c) 2018 DeFunc Art.
+      Inspired by jekyll-theme-tactile and jekyll-theme-minima  -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+   <!--  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' }}" media="print"> -->
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+{% seo %}
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+        
+        <!-- Draw the header -->
+        <header>
+          <div class="wrapper">
+            {% assign default_paths = site.pages | map: "path" %}
+            {% assign page_paths = site.header_pages | default: default_paths %}
+            {% if page_paths %}
+              <div class="trigger">
+                <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+                <span>&emsp;</span>
+                {% for path in page_paths %}
+                  {% assign my_page = site.pages | where: "path", path | first %}
+                  {% if my_page.title %}
+                    <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    <span>&emsp;</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            <!-- </nav> -->
+            {% endif %}
+          </div>
+          <p></p> <!-- divider -->
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        </header>
+
+        <!-- <section id="downloads" class="clearfix">
+          {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          {% endif %}
+	  {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+	  {% else %}
+          <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+	  {% endif %}
+        </section>-->
+
+        <!-- Draw links -->
+        <section id="downloads" class="clearfix">
+          {% if page.url == "/" %}
+            <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          {% else %}
+            <a href="{{ site.github.repository_url }}{{ page.url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          {% endif %}
+        </section>
+
+        <!-- Draw main contents -->
+        <section id="main_content">
+          {{ content }}
+        </section>
+
+        <!-- Draw the footer -->
+        <footer>
+          Designed by James Leahy. Hosted by GitHub.
+        </footer>
+      </div>
+    </div>
+
+    {% if site.google_analytics %}
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
