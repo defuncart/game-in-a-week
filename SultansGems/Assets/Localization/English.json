@@ -1,0 +1,8 @@
+{ "items" : [
+{ "key": "moves", "value": "Moves :"},    
+{ "key": "gamePaused", "value": "Game Paused"},
+{ "key": "resume", "value": "Resume"},
+{ "key": "restart", "value": "Restart"},
+{ "key": "quit", "value": "Quit"},
+{ "key": "continue", "value": "Continue"}
+]}

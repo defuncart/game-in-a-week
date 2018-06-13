@@ -16,7 +16,7 @@
 title: "#GameInAWeek"
 email: defuncart@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  These are a group of games focusing on a specific genre or game mechanic that I have created using Unity under the time constraint of a single week.
+  A group of games focusing on a specific genre or game mechanic created using Unity under the time constraint of a single week.
 baseurl: "/game-in-a-week" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: defuncart

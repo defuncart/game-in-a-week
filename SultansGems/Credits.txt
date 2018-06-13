@@ -1,0 +1,44 @@
+All code was written by James Leahy
+
+Audio
+
+Music
+
+main
+"nomads" by elerya CC0
+Edited by James Leahy into a shorter loop
+https://opengameart.org/content/nomads
+
+SFX
+
+buttonGeneric
+"Mid-High Tone Button Click" by wubitog CC0
+https://freesound.org/people/wubitog/sounds/188388/
+
+match
+"RPG SFX #1 - Item Jingle" by Sirkoto51 CC Attribution
+Edited by James Leahy - Converted to Mono, trimmed end
+https://freesound.org/people/Sirkoto51/sounds/346265/
+
+swap
+"Get ruby SE" by mieki256 CC0
+Edited by James Leahy - Converted to Mono, cropped to 200ms
+https://opengameart.org/content/get-ruby-se
+
+unswap
+Simply a reversed, tuned-down version of "swap"
+
+Fonts
+
+"Riffic" by Nini Prower CC0
+https://www.dafont.com/riffic.font
+
+Sprites
+
+All sprites by Craft Pix, edited by James Leahy
+
+Sultans Gems - Free Tileset
+https://craftpix.net/freebies/sultans-gems-free-tileset/
+
+Gems Games – Free GUI
+https://craftpix.net/freebies/gems-games-gui/

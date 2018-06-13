@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42bfd015ee92b4d46b7416214ad43882, type: 3}
+  m_Name: Level4
+  m_EditorClassIdentifier: 
+  maximumNumberMoves: 5
+  scoreToAchieve1Star: 100
+  scoreToAchieve2Star: 200
+  scoreToAchieve3Star: 300
+  stonesDistribution:
+  - 0.25
+  - 0
+  - 0.25
+  - 0
+  - 0.25
+  - 0.25
+  stonesPoints: 0a0000000a00000000000000000000000a0000000a000000
+  rows:
+  - row:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - row:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - row:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - row:
+    - 
+    - 
+    - 
+    - x
+    - x
+    - x
+    - 
+    - 
+    - 
+  - row:
+    - 
+    - 
+    - 
+    - x
+    - x
+    - x
+    - 
+    - 
+    - 
+  - row:
+    - 
+    - 
+    - 
+    - x
+    - x
+    - x
+    - 
+    - 
+    - 
+  - row:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - row:
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - row:
+    - 0
+    - 0
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 

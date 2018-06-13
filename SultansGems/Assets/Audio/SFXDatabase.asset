@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65cc6b25cd4b48f9a2c3ab0a29bc02f, type: 3}
+  m_Name: SFXDatabase
+  m_EditorClassIdentifier: 
+  audioFiles:
+  - clip: {fileID: 8300000, guid: d5d4564be4d024adaac6e8aceb41a792, type: 3}
+    volume: 0.15
+    key: buttonGeneric
+  - clip: {fileID: 8300000, guid: dcc8b6b7e83804fd38e1cad7fb3896cc, type: 3}
+    volume: 0.3
+    key: swap
+  - clip: {fileID: 8300000, guid: d5da4a00979ff4c32befc24015c91253, type: 3}
+    volume: 0.3
+    key: unswap
+  - clip: {fileID: 8300000, guid: 30ce5e9030e7241ee9f5e1ab84cc2274, type: 3}
+    volume: 0.45
+    key: match

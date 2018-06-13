@@ -8,20 +8,21 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
-   <!--  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' }}" media="print"> -->
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
-{% seo %}
+    {% if page.unityPlayer %}
+      <!-- Include Unity Player -->
+      <script src="{{site.baseurl}}/assets/WebGL{{page.url}}Build/UnityLoader.js"></script>
+      <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "{{site.baseurl}}/assets/WebGL{{page.url}}Build/Web.json");
+        </script>
+    {% endif %}
   </head>
 
   <body>
     <div id="container">
       <div class="inner">
-        
+
         <!-- Draw the header -->
         <header>
           <div class="wrapper">
@@ -47,24 +48,12 @@
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </header>
 
-        <!-- <section id="downloads" class="clearfix">
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          {% endif %}
-	  {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
-	  {% else %}
-          <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
-	  {% endif %}
-        </section>-->
-
         <!-- Draw links -->
         <section id="downloads" class="clearfix">
           {% if page.url == "/" %}
             <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
           {% else %}
-            <a href="{{ site.github.repository_url }}{{ page.url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+            <a href="{{ site.github.repository_url }}/tree/master{{ page.url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
           {% endif %}
         </section>
 
@@ -80,15 +69,5 @@
       </div>
     </div>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>

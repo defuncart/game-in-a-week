@@ -7,9 +7,9 @@
 <table style="width:100%">
   <tr>
     <th><img src="../docs/assets/images/IdleCapitalist/screenshot1.png" style="width:25%"></th>
-    <th><img src="../docs/assets/images/IdleCapitalist//screenshot2.png" style="width:25%"></th> 
-    <th><img src="../docs/assets/images/IdleCapitalist//screenshot3.png" style="width:25%"></th>
-    <th><img src="../docs/assets/images/IdleCapitalist//screenshot4.png" style="width:25%"></th> 
+    <th><img src="../docs/assets/images/IdleCapitalist/screenshot2.png" style="width:25%"></th>
+    <th><img src="../docs/assets/images/IdleCapitalist/screenshot3.png" style="width:25%"></th>
+    <th><img src="../docs/assets/images/IdleCapitalist/screenshot4.png" style="width:25%"></th>
   </tr>
 </table>
 
@@ -18,14 +18,14 @@
 * Business, Manager, and Update data are stored as customs assets.
 * Modular approach in which new businesses, managers or updates can easily be added.
 * Player data is saved to disk (via Binary Serialization).
-* Locailzation is incorporated throughout.
+* Localization is incorporated throughout.
 * Optimized assets (Sprite Packer).
 * iOS Launch Screen.
-* A complete write-up of the game design can be found in [GameDesignDocumentation.pdf](GameDesignDocumentation.pdf).
+* A complete write-up of the game design can be found in [GameDesignDocument.pdf](GameDesignDocument.pdf).
 
 ## Play Online
 
-The game can be played in the browser [here](https://defuncart.itch.io/idlecapitalist).
+The game can be played in the browser [here](http://defuncart.github.io/game-in-a-week/IdleCapitalist/).
 
 ## Conclusion
 
